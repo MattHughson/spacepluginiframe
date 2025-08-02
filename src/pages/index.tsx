@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { useAppBridge } from '@/hooks';
+import { useAppBridge } from '@/hooks'; 
 
 export default function Home() {
 	const { completed } = useAppBridge({ type: 'space-plugin', oauth: true });
